@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+    <title>calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/048049fb24.js"></script>
+    </head>
+    <body>
+      <form class="calcul" name="calc">
+          <input type="text" name="TXT" readonly class="value">
+          <div class="number bot" onclick="document.calc.TXT.value +='7'">7</div>
+          <div class="number bot" onclick="document.calc.TXT.value +='8'">8</div>
+          <div class="number" onclick="document.calc.TXT.value +='9'">9</div>
+          <div class="number" onclick="document.calc.TXT.value +='4'">4</div>
+          <div class="number" onclick="document.calc.TXT.value +='5'">5</div>
+          <div class="number" onclick="document.calc.TXT.value +='6'">6</div>
+          <div class="number" onclick="document.calc.TXT.value +='1'">1</div>
+          <div class="number" onclick="document.calc.TXT.value +='2'">2</div>
+          <div class="number" onclick="document.calc.TXT.value +='3'">3</div>
+          <div class="number plus" onclick="document.calc.TXT.value +='+'">+</div>
+          <div class="number m" onclick="document.calc.TXT.value +='-'">-</div>
+          <div class="number f" onclick="document.calc.TXT.value +='*'">*</div>
+          <div class="number sla" onclick="document.calc.TXT.value +='0'">0</div>
+          <div class="number" onclick="document.calc.TXT.value +='.'">.</div>
+          <div class="number clean" onclick="document.calc.TXT.value =''">clean</div>
+          <div class="number" onclick="document.calc.TXT.value +='00'">00</div>
+          <div class="number equal" onclick="document.calc.TXT.value = eval(calc.TXT.value)">=</div>
+          
+      </form>
+      <script src="./style.js"></script>
+    </body>
+    </html>
